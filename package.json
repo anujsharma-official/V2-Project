@@ -8,7 +8,7 @@
   "main": "BackEnd/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "node BackEnd/server.js",
     "dev": "nodemon BackEnd/server.js",
     "build": "npm install && npm install --prefix FrontEnd && npm run build --prefix FrontEnd"
   },
